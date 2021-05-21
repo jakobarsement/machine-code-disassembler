@@ -18,7 +18,6 @@ const string regNames[NREGS] = {"$zero","$at","$v0","$v1","$a0","$a1","$a2","$a3
 ///////////////////////////////////////////////////////////////////////////
 // Disassemble the 32-bit MIPS instruction (assumed to be at the given PC)
 // and print the assembly instruction to screen
-// ALL YOUR CHANGES GO IN THIS FUNCTION
 ///////////////////////////////////////////////////////////////////////////
 void disassembleInstr(uint32_t pc, uint32_t instr) {
   uint32_t opcode;      // opcode field
